@@ -1,0 +1,90 @@
+p{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+form{
+    padding-top: 15px;
+}
+
+label{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.login-flex-container{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-header{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.login-form-inputs input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+.login-form-inputs ::placeholder{
+    color: rgb(0,0,0);
+    font-weight: 250;
+    font-size: 20px;
+}
+.forgot-password{
+    color: rgb(101,157,169);
+}
+
+.forgot-password:hover{
+    color: rgb(0,0,0,0.4);
+    transition: 0.1s;
+}
+
+.forgot-password:active{
+    color: rgb(0,0,0,0.4);
+    transition: 0.1s;
+}
+
+input[type=checkbox]{
+    zoom: 2;
+}
+
+.login-form-inputs{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.login-submit-btn{
+    background-color: rgb(101,157,169);
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0%;
+}
+
+.login-submit-btn:hover{
+    background-color: rgb(0,0,0,0.1);
+    transition: 0.5s;
+}
+
+.input-error{
+    font-size: small;
+    color: red;
+}

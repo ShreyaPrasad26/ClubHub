@@ -1,0 +1,291 @@
+.slideshow{
+    overflow: hidden;
+
+}
+
+.slideshowSlider{
+    white-space: nowrap;
+}
+
+.slide{
+    display: inline-block;
+    height: 450px;
+    width: 100%;
+    margin-top: 30px;
+    left: 0;
+    padding-top: 20%;
+    background-color: rgb(0,0,0,0.3);
+
+    background-image: url('/Users/shreyaprasad/Downloads/WhatsApp Image 2023-11-24 at 10.56.45.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideshowButtons{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.slideshowButton{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #FFF;
+}
+
+.title {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.domain{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(0,0,0,0.3);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+
+.domains{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.domain-container{
+    display: inline-block;
+    text-align: center;
+    color: #000;
+}
+
+.domain-container button{
+    background-color: rgb(0,0,0,0.7);
+    transition: 0.2s;
+}
+
+.domain-container button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.domain-container img{
+    width: 250px;
+    height: 250px;
+}
+
+.domain-container p a{
+    color: black;
+}
+
+.domain-container p a:hover{
+    color: #1eb2a6;
+}
+
+.domain-title-1{
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.domain-clubs-1{
+    background-color: rgb(0,0,0,0.3);
+    height: 450px;
+    width: 70%;
+   
+}
+
+.domain-text-1{
+    width: 30%;
+    margin: 30px;
+    margin-top: 150px;
+    color: white;
+}
+
+.domain-text-1 p{
+    text-align: justify;
+}
+
+.domain-container-specific-1{
+    display: inline-flex;
+    margin-top:80px;
+    width: 100%;
+}
+
+#domain-container-spec-1{
+    background-image: url('./tech2-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);    
+}
+
+#domain-container-spec-2{
+    background-image: url('./dev2-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);    
+}
+
+.domain-clubs-1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: medium;
+}
+
+.domain-club-names-1{
+    margin-top: 350px;
+    margin-left: 80px;
+}
+
+.domain-clubs-2{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.domain-clubs-2 p{
+    font-size: medium;
+    padding: 5px;
+}
+
+.domain-title-2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.domain-container-specific-2{
+    margin-top:50px;
+    width: 100%;
+    text-align: center;
+}
+
+.domain-clubs-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.domain-clubs-row p{
+    color: black;
+}
+
+.domain-clubs-row p:hover{
+    color: #1eb2a6;
+}
+
+.domain-club-names-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.domain-club-names-row p {
+    color: white;
+}
+
+.domain-club-names-row p:hover{
+    color: #1eb2a6;
+}
+
+.domain-text-2 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.domain-title-3{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.domain-club-names-3 p{
+    width: 150px;
+    padding-bottom: 5px;
+    font-size: medium;
+}
+
+.domain-club-names-3{
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.domain-clubs-3 p{
+    width: 180px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: medium;
+}
+
+.domain-clubs-3{
+    background-color: rgb(0,0,0,0.3);
+    height: 450px;
+    width: 70%;
+}
+
+/* images */
+
+#domain-tech{
+    background-image: url('./tech-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
+#domain-tech:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+#domain-dev{
+    background-image: url('./dev-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
+#domain-dev:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+#domain-comm{
+    background-image: url('./comm-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
+#domain-comm:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+#domain-cultural{
+    background-image: url('./cultural-domain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+}
+
+#domain-cultural:hover{
+    -webkit-filter: grayscale(0%);
+}

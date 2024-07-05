@@ -1,0 +1,186 @@
+.profile-banner{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0,0.3);
+    z-index: 1;
+}
+
+.profile-image{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 7px 4px 0px rgb(0, 0, 0,0.3);
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+
+    background-image: url('/Applications/XAMPP/xamppfiles/htdocs/planner/client/src/components/profile/student_profile/WhatsApp Image 2023-11-24 at 11.03.50.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-heading{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 150px;
+    z-index: 4;
+}
+
+.profile-title-1{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.profile-title{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 5px;
+    padding-top: 45px;
+    margin-left: 30px;
+}
+
+.profile-club-domain{
+    font-weight: 250;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.profile-content{
+    margin: 50px;
+}
+
+.profile-content p{
+    text-align: justify;
+}
+
+.club-head{
+    margin-top: 30px;
+}
+
+.club-head-name{
+    margin-left: 20px;
+    display: inline-flex;
+    width: 250px;
+    font-size: 18px;
+}
+
+
+.profile-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    margin-left: 210px;
+    width: 900px;
+    gap: 30px;
+}
+
+.profile-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-card-text p{
+    margin-left: 65px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 7%;
+    
+}
+
+.circular-card{
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0,0.7);
+    height: 250px;
+    width: 250px;
+
+    background-image: url('/Applications/XAMPP/xamppfiles/htdocs/planner/client/src/components/profile/student_profile/WhatsApp Image 2023-11-24 at 11.03.50.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.circular-card:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+.events{
+    margin-top: 30px;
+}
+
+.event-banner{
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0,0.3);
+    height: 450px;
+    width: 100%;
+
+    background-image: url('/Users/shreyaprasad/Downloads/WhatsApp Image 2023-11-24 at 10.56.00.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.event-element{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.register-button{
+    background-color: rgb(101,157,169);
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 0%;
+    padding: 10px;
+}
+
+.register-button:hover{
+    background-color: rgb(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.profile-title-event{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.event-registration{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-left: 5%;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.event-registration-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.event-registration-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,89 @@
+p{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+h2{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 600px;
+    padding-bottom: 1px;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    width: 130%;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+input[type=email]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    width: 130%;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+input[type=checkbox]{
+    zoom:1.5;
+}
+
+.admin-signup-flex-container{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.admin-signup-form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.admin-signup-form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-signup-submit-btn{
+    background-color: rgb(101,157,169);
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0%;
+    width: 280px;
+    margin-top: 195px;
+}
+
+.profile-title-1{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 5px;
+}
+
+
+.admin-signup-submit-btn:hover{
+    background-color: rgb(0,0,0,0.1);
+    transition: 0.5s;
+}
+
+.input-error{
+    font-size: small;
+    color: red;
+}

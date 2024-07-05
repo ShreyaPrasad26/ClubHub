@@ -1,0 +1,28 @@
+.reg-form input[type=text]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    background: transparent;
+    width: 40%;
+    height: 60px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;   
+}
+
+.reg-form ::placeholder{
+    color: rgb(0,0,0);
+    font-weight: 250;
+    font-size: 20px;   
+}
+
+h1{
+    text-align: center;
+}
+
+.login-submit-btn{
+    margin-left: 610px;
+    padding: 10px;
+}

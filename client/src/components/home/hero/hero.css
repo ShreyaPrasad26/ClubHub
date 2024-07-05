@@ -1,0 +1,161 @@
+.hero{
+    height: 480px;
+    width: 100%;
+    margin-top: 30px;
+    left: 0;
+    z-index: -1;
+    padding-top: 20%;
+    background-color: rgb(0,0,0,0.3);
+
+    background-image: url('./home-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.feature-grid{
+    height: 898px;
+    background-color: rgb(0,0,0,0.3);
+    margin-top: 35px;
+    z-index: -1;
+}
+
+.top-right p{
+    padding-bottom: 103px;
+}
+
+.top-row-right{
+    margin-top: 250px;
+}
+
+.bottom-row{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.top-row{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.grid-img-big{
+    height: 540px;
+    width: 755px;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 2;
+    padding: 40px;
+}
+
+.grid-img-mid{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 2;
+}
+
+.grid-img-small{
+    height: 270px;
+    width: 360px;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 2;
+}
+
+.top-grid-img-small{
+    height: 270px;
+    width: 300px;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 2;
+    margin-top: 65px;
+}
+
+/*
+.top-right{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+} 
+*/
+
+.grid-img-small-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.top-right{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.top-small{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    z-index: 1;
+}
+
+.founder-content{
+    width: 350px;
+}
+
+.about-row{
+    margin-top: 40px;
+    margin-left: 28%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.about-card{
+    height: 400px;
+    width: 300px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color:rgb(0,0,0,0.3);
+
+    background-image: url('./woman-founder.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-content h2{
+    margin-left: 20px;
+}
+
+.top-grid-small{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+@media screen and (max-width:768px){
+    .hero{
+        background-position: right;
+        padding-top: 50%;
+        height: 80vh;
+    }
+}

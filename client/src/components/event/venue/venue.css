@@ -1,0 +1,222 @@
+.event-container{
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    background-color: rgb(0,0,0,0.1);
+    height: 600px;
+}
+
+.room-container-outer label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.room-container{
+    margin: auto;
+    width: 70%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.room-rect{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(0,0,0,0.7);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.room-rect:hover{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(0,0,0,0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.room-rect:focus{
+    height: 60px;
+    width: 100px;
+    background-color: #1eb2a6;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.room-rect p{
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.submit-button{
+    background-color: rgb(101,157,169);
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0%;
+}
+
+.submit-button:hover{
+    background-color: rgb(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.submit{
+    margin-top: 50px;
+    margin-left: 605px;
+}
+
+.start-container{
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-container-time{
+    width: 200px;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle-container{
+    width: 200px;
+}
+
+.btn-container-col-1{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.dt-title{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-container label{
+    margin-top: 20px;
+}
+
+.btn-div{
+    position: relative;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px;
+}
+
+.btn-div span{
+    padding-right: 10px;
+    width: 15px;
+}
+
+.btn-div button{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(0,0,0,0.7);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.btn-div button:hover{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(0,0,0,0.3);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.btn-div-time{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.btn-div-time span{
+    padding-right: 10px;
+    width: 15px;
+}
+
+.btn-div-time button{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(0,0,0,0.7);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.btn-div-time button:hover{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(0,0,0,0.3);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+
+.event-form input[type=text]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    background: transparent;
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+    text-align: center;
+    
+}
+
+.event-form ::placeholder{
+    color: rgb(0,0,0);
+    font-weight: 250;
+    font-size: 20px;
+    text-align: center;
+}
+
+
